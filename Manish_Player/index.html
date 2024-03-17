@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MC__PLAYER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="name">
+      <p>MC PLAYER</p>
+    </div>
+
+    <div class="btn">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </div>
+  </nav>
+  <hr>
+<section class="songWork">
+   <section class="songArea">
+    <div class="mainImg">
+      <img src="songs/Avtar/mahiya.jfif" alt="">
+    </div>
+    <div class="mastersongname">
+      Aja-We-Mahiya
+    </div>
+
+    <div class="bottom">
+      
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+      
+    </div>
+   </section>
+
+
+  <section class="songList">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper ">
+        <div class="swiper-slide songItems">
+          
+        </div>
+       
+  </section>
+</section>
+ 
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+</body>
+</html>

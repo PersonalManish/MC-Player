@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(img/bg1.avif) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Nav CSS */
+hr{
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+nav{
+  margin: 15px 180px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  padding: 0px 12px;
+  list-style-type: none;
+  font-size: 1vw;
+}
+.name{
+  width: 12%;
+}
+.name p{
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+/* Nav CSS End  */
+
+
+/* Song Area  */
+.songWork{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.songArea{
+  /* border: 10px solid; */
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainImg{
+  border: 1px solid white;
+  height: 32vh;
+  width: 35%;
+  border-radius: 30%;
+  overflow: hidden;
+  
+  
+}
+
+.mainImg img{
+  height: inherit;
+  width: -webkit-fill-available;
+}
+
+.icons{
+  margin: 21px 37px;
+  color: white;
+}
+
+.songList{
+  /* border: 10px solid; */
+  width: 50%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: flex;
+  width: 100%;
+}
+.swiper-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 15vw; /* Set the width to cover the entire space within the slide */
+  height: 300px; /* Set the desired height for the images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire space */}
